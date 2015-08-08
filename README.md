@@ -3,7 +3,7 @@ A package for Hubot that allows you to look up definitions via Urban Dictionary.
 
 #### Note:
 Be aware that this script usually returns responses that are NSFW so use at your
-own risk.
+own risk...
 
 ## Installation
 You need to set up an account with Mashape at https://www.mashape.com in order
