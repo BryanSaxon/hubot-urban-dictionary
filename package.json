@@ -2,7 +2,7 @@
   "name": "hubot-urban-dictionary",
   "version": "1.0.0",
   "description": "A package for Hubot that allows you to look up definitions via Urban Dictionary.",
-  "main": "index.js",
+  "main": "define.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
