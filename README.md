@@ -38,5 +38,9 @@ What white-trash call Television shows.
 Bubba, run to the Piggly Wiggly and pick mamma up some smokes. I don't want to
 miss my stories.
 
+## Contributions
+Thanks to [Justin Licata](https://github.com/licatajustin) for providing the
+'define' regex!
+
 ## License
 See LICENSE for details.
