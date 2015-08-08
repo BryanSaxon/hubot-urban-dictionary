@@ -11,15 +11,11 @@ examples from Urban Dictionary.
 `define hubot`
 
 ### Returns:
-`**Definition:**`
-
-`What white-trash call Television shows.`
-
-`**Example:**`
-
-`Bubba, run to the Piggly Wiggly and pick mamma up some smokes. I don't want`
-
-`to miss my stories.`
+**Definition:**
+What white-trash call Television shows.
+**Example:**
+Bubba, run to the Piggly Wiggly and pick mamma up some smokes. I don't want
+to miss my stories.
 
 ## License
 See LICENSE for details.
