@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec { raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/Users/bryansaxon/Code/hubot-urban-dictionary',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /Users/bryansaxon/.npm/hubot-urban-dictionary/1.0.1/package.tgz not in flight; packing
+10 verbose tar pack [ '/Users/bryansaxon/.npm/hubot-urban-dictionary/1.0.1/package.tgz',
+10 verbose tar pack   '/Users/bryansaxon/Code/hubot-urban-dictionary' ]
+11 verbose tarball /Users/bryansaxon/.npm/hubot-urban-dictionary/1.0.1/package.tgz
+12 verbose folder /Users/bryansaxon/Code/hubot-urban-dictionary
+13 info prepublish hubot-urban-dictionary@1.0.1
+14 verbose addLocalTarball adding from inside cache /Users/bryansaxon/.npm/hubot-urban-dictionary/1.0.1/package.tgz
+15 silly cache afterAdd hubot-urban-dictionary@1.0.1
+16 verbose afterAdd /Users/bryansaxon/.npm/hubot-urban-dictionary/1.0.1/package/package.json not in flight; writing
+17 verbose afterAdd /Users/bryansaxon/.npm/hubot-urban-dictionary/1.0.1/package/package.json written
+18 silly publish { name: 'hubot-urban-dictionary',
+18 silly publish   version: '1.0.1',
+18 silly publish   description: 'A package for Hubot that allows you to look up definitions via Urban Dictionary.',
+18 silly publish   main: 'index.coffee',
+18 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+ssh://git@github.com/BryanSaxon/hubot-urban-dictionary.git' },
+18 silly publish   keywords:
+18 silly publish    [ 'hubot',
+18 silly publish      'hubot-scripts',
+18 silly publish      'urbandictionary',
+18 silly publish      'urban',
+18 silly publish      'dictionary',
+18 silly publish      'slack' ],
+18 silly publish   author: { name: 'Bryan Saxon', email: 'emailBryanSaxon@gmail.com' },
+18 silly publish   contributors:
+18 silly publish    [ { name: 'Justin Licata',
+18 silly publish        email: 'licata.justine@gmail.com',
+18 silly publish        url: 'https://github.com/licatajustin' } ],
+18 silly publish   license: 'MIT',
+18 silly publish   bugs: { url: 'https://github.com/BryanSaxon/hubot-urban-dictionary/issues' },
+18 silly publish   homepage: 'https://github.com/BryanSaxon/hubot-urban-dictionary#readme',
+18 silly publish   dependencies: { hubot: '^2.11.0', unirest: '^0.4.2' },
+18 silly publish   engines: { node: '0.10.x' },
+18 silly publish   readme: '# hubot-urban-dictionary\nAn npm package for Hubot that allows you to look up definitions via Urban Dictionary.\n\nhttps://www.npmjs.com/package/hubot-urban-dictionary\n\n#### Note:\nBe aware that this script usually returns responses that are NSFW so use at your\nown risk...\n\n## Installation\nYou need to set up an account with Mashape at https://www.mashape.com in order\nto use this package. Once you have signed up:\n\n* Add a new application\n* Go to https://www.mashape.com/community/urban-dictionary and create a\n  X-Mashape-Key for your new application\n* Grab your X-Mashape-Key from your curl REQUEST EXAMPLE\n* Add your key to your enviornment variables with the name HUBOT_MASHAPE_KEY\n* Add hubot-urban-dictionary to your dependancies in the package.json file and\n  in your exteranl-scripts.json file (Note that you will also need to grab the\n  latest version from https://www.npmjs.com/package/hubot-urban-dictionary to\n  add to the package.json)\n* run `npm install` to download the package\n* Enjoy ;)\n\n## Usage\nThis package listens for the word `define` and returns the first definition and\nexamples from Urban Dictionary.\n\n#### Example:\n`define stories`\n\n#### Returns:\n**Definition:**\n\nWhat white-trash call Television shows.\n\n**Example:**\n\nBubba, run to the Piggly Wiggly and pick mamma up some smokes. I don\'t want to\nmiss my stories.\n\n## Contributions\nThanks to [Justin Licata](https://github.com/licatajustin) for providing the\n\'define\' regex!\n\n## License\nSee LICENSE for details.\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '21871fb7bcd5c974353c91010e8c242231e726e0',
+18 silly publish   _id: 'hubot-urban-dictionary@1.0.1',
+18 silly publish   _shasum: 'f7c82fa4fae4f61ed0ac2e4dfab1afc04aad4aad',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name hubot-urban-dictionary
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/hubot-urban-dictionary
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/bryansaxon/.npm/hubot-urban-dictionary/1.0.1/package.tgz
+26 verbose request uri https://registry.npmjs.org/hubot-urban-dictionary
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 17:01:11
+29 verbose request using bearer token for auth
+30 verbose request id 25a76d2170fc699f
+31 http request PUT https://registry.npmjs.org/hubot-urban-dictionary
+32 http 403 https://registry.npmjs.org/hubot-urban-dictionary
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=60',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Sat, 08 Aug 2015 22:01:12 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-iad2136-IAD',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1439071272.210096,VS0,VE354' }
+34 verbose request invalidating /Users/bryansaxon/.npm/registry.npmjs.org/hubot-urban-dictionary on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : hubot-urban-dictionary
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:247:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:368:22)
+36 verbose stack     at Request.emit (events.js:110:17)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1219:14)
+36 verbose stack     at Request.emit (events.js:129:20)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1167:12)
+36 verbose stack     at IncomingMessage.emit (events.js:129:20)
+36 verbose stack     at _stream_readable.js:908:16
+36 verbose stack     at process._tickCallback (node.js:355:11)
+37 verbose statusCode 403
+38 verbose pkgid hubot-urban-dictionary
+39 verbose cwd /Users/bryansaxon/Code/hubot-urban-dictionary
+40 error Darwin 14.5.0
+41 error argv "node" "/usr/local/bin/npm" "publish"
+42 error node v0.12.4
+43 error npm  v2.10.1
+44 error code E403
+45 error "You cannot publish over the previously published version 1.0.1." : hubot-urban-dictionary
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
