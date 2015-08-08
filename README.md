@@ -7,10 +7,10 @@ A package for Hubot that allows you to look up definitions via Urban Dictionary.
 This package listens for the word `define` and returns the first definition and
 examples from Urban Dictionary.
 
-### Example:
+#### Example:
 `define hubot`
 
-### Returns:
+#### Returns:
 **Definition:**
 
 What white-trash call Television shows.
