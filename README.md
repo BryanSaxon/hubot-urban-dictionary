@@ -1,5 +1,7 @@
 # hubot-urban-dictionary
-A package for Hubot that allows you to look up definitions via Urban Dictionary.
+An npm package for Hubot that allows you to look up definitions via Urban Dictionary.
+
+https://www.npmjs.com/package/hubot-urban-dictionary
 
 #### Note:
 Be aware that this script usually returns responses that are NSFW so use at your
