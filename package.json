@@ -19,6 +19,13 @@
     "slack"
   ],
   "author": "Bryan Saxon <emailBryanSaxon@gmail.com>",
+  "contributors": [
+    {
+      "name": "Justin Licata",
+      "email": "licata.justine@gmail.com",
+      "url": "https://github.com/licatajustin"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BryanSaxon/hubot-urban-dictionary/issues"
