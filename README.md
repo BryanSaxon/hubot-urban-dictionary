@@ -14,8 +14,7 @@ examples from Urban Dictionary.
 **Definition:**
 What white-trash call Television shows.
 **Example:**
-Bubba, run to the Piggly Wiggly and pick mamma up some smokes. I don't want
-to miss my stories.
+Bubba, run to the Piggly Wiggly and pick mamma up some smokes. I don't want to miss my stories.
 
 ## License
 See LICENSE for details.
