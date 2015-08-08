@@ -2,7 +2,7 @@
   "name": "hubot-urban-dictionary",
   "version": "1.0.0",
   "description": "A package for Hubot that allows you to look up definitions via Urban Dictionary.",
-  "main": "define.coffee",
+  "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +24,9 @@
   "homepage": "https://github.com/BryanSaxon/hubot-urban-dictionary#readme",
   "dependencies": {
     "hubot": "^2.11.0",
-    "hubot-slack": "^3.2.1",
     "unirest": "^0.4.2"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
