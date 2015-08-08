@@ -12,11 +12,11 @@ examples from Urban Dictionary.
 
 ### Returns:
 `
-  *Definition:*
-  What white-trash call Television shows.
-  *Example:*
+  *Definition:*\n
+  What white-trash call Television shows.\n
+  *Example:*\n
   Bubba, run to the Piggly Wiggly and pick mamma up some smokes. I don't want to
-  miss my stories.
+  miss my stories.\n
 `
 
 ## License
