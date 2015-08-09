@@ -22,6 +22,7 @@ to use this package. Once you have signed up:
   latest version from [NPM](https://www.npmjs.com/package/hubot-urban-dictionary)
   to add to the package.json)
 * Run `npm install` to download the package
+* Restart you hubot
 * Enjoy ;)
 
 ## Usage
