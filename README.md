@@ -3,8 +3,6 @@ An npm package for Hubot that allows you to look up definitions via Urban Dictio
 
 [![npmversion](https://badge.fury.io/js/hubot-urban-dictionary.svg)](http://badge.fury.io/js/hubot-urban-dictionary)
 
-[https://www.npmjs.com/package/hubot-urban-dictionary](https://www.npmjs.com/package/hubot-urban-dictionary)
-
 #### Note:
 Be aware that this script usually returns responses that are NSFW so use at your
 own risk...
@@ -21,8 +19,8 @@ to use this package. Once you have signed up:
 * Add your key to your enviornment variables with the name HUBOT_MASHAPE_KEY
 * Add hubot-urban-dictionary to your dependancies in the package.json file and
   in your exteranl-scripts.json file (Note that you will also need to grab the
-  latest version from https://www.npmjs.com/package/hubot-urban-dictionary to
-  add to the package.json)
+  latest version from [NPM](https://www.npmjs.com/package/hubot-urban-dictionary)
+  to add to the package.json)
 * run `npm install` to download the package
 * Enjoy ;)
 
