@@ -21,7 +21,7 @@ to use this package. Once you have signed up:
   in your exteranl-scripts.json file (Note that you will also need to grab the
   latest version from [NPM](https://www.npmjs.com/package/hubot-urban-dictionary)
   to add to the package.json)
-* run `npm install` to download the package
+* Run `npm install` to download the package
 * Enjoy ;)
 
 ## Usage
