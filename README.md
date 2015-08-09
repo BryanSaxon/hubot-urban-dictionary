@@ -27,7 +27,8 @@ to use this package. Once you have signed up:
 
 ## Usage
 This package listens for the word `define` and returns the first definition and
-examples from Urban Dictionary.
+examples from Urban Dictionary. The response was formatted specifically for
+Slack.
 
 #### Example:
 `define stories`
