@@ -2,6 +2,10 @@
 An npm package for Hubot that allows you to look up definitions via Urban Dictionary.
 
 [![npmversion](https://badge.fury.io/js/hubot-urban-dictionary.svg)](http://badge.fury.io/js/hubot-urban-dictionary)
+[![Code
+Climate](https://codeclimate.com/github/BryanSaxon/hubot-urban-dictionary/badges/gpa.svg)](https://codeclimate.com/github/BryanSaxon/hubot-urban-dictionary)
+[![Issue
+Count](https://codeclimate.com/github/BryanSaxon/hubot-urban-dictionary/badges/issue_count.svg)](https://codeclimate.com/github/BryanSaxon/hubot-urban-dictionary)
 
 #### Note:
 Be aware that this script usually returns responses that are NSFW so use at your
